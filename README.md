@@ -1,3 +1,10 @@
 # Docker Foundations: Project
 
 Repository for the [**Docker Foundations: Your First Project**](https://www.linkedin.com/learning/docker-your-first-project) course project.
+
+## Requirements
+
+- Docker Desktop
+- VS Code
+- Docker Extension for VS Code
+- Python and Flask
