@@ -1,5 +1,5 @@
 # Use a Python runtime for the base image.
-FROM python:3.13.7
+FROM python:3.12-bookworm
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -17,7 +17,7 @@ ENV FLASK_APP=app.py
 LABEL "com.example.vendor"="Big Star Collectibles"
 LABEL version="1.0"
 LABEL description="The Big Star Collectibles Website \
-using the Python base image."
+    using the Python base image."
 
 # Run the command to start the Flask application
 CMD ["flask", "run", "--host=0.0.0.0"]
